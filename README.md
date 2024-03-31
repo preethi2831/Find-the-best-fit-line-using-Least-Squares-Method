@@ -17,16 +17,55 @@ To implement univariate Linear Regression to fit a straight line using least squ
 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
-```
 /*
 Program to implement univariate Linear Regression to fit a straight line using least squares.
-Developed by: 
-RegisterNumber:  
+Developed by: Preethika N
+
+RegisterNumber:  212223040130
 */
+```
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+x_mean=np.mean(x)
+y_mean=np.mean(y)
+num=0
+denom=0
+for i in range(len(x)):
+    num+=(x[i]-x_mean)*(y[i]-y_mean)
+    denom+=(x[i]-x_mean)**2
+m=num/denom
+c=y_mean-m*(x_mean)
+print("Slope",m)
+print("y intercept",c)
+y_pred=(m*x)+c
+print("Predicted Value",y_pred)
+plt.scatter(x,y)
+plt.plot(x,y_pred,color='red')
+plt.show()
 ```
 
 ## Output:
-![best fit line](sam.png)
+Input Data:
+
+![image](https://github.com/AkilaMohan/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/66552c6a-0bdf-4842-8e36-d6de47d56a8a)
+
+Slope:
+
+![image](https://github.com/AkilaMohan/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/f00783b4-360a-463d-9db6-a440c5647fd4)
+
+Y-intercept:
+
+![image](https://github.com/AkilaMohan/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/a0eb1027-c75b-4b9a-954e-6056a73ef58a)
+
+Predicted y values:
+
+![image](https://github.com/AkilaMohan/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/87d87982-9251-486b-bc11-c239a20ebb7e)
+
+Best-fit-line:
+
+![image](https://github.com/AkilaMohan/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/f04ad17d-9017-402c-be27-029c8f4e4ab2)
 
 
 ## Result:
