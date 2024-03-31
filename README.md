@@ -47,10 +47,25 @@ plt.show()
 ```
 
 ## Output:
-![ML 1 exp](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/e9280a68-e7ab-45d7-bd21-f73d4657efb2)
-![image](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/1115c807-54b4-425e-8f6e-01b1860ed6d1)
+Input data:
 
+![image](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/b987f338-b0a0-4daf-8f70-69737c3f88c5)
 
+Slope:
+
+![image](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/fedb7250-834a-4174-ac41-70f987cf48fc)
+
+Y-intercept:
+
+![image](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/d281dfae-8003-4781-9858-851628eea340)
+
+Predicted y values:
+
+![image](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/3c69a50c-3e2e-4973-aa51-f328ffb6ca40)
+
+Best-fit-line:
+
+![image](https://github.com/preethi2831/Find-the-best-fit-line-using-Least-Squares-Method/assets/155142246/1e0b5918-f966-40cf-a491-2d5e89c297b2)
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
